@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014, 	 and/or its affiliates. All rights reserved.
+ * Copyright (c) 2014,      and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -18,7 +18,9 @@
  * 2 along with this work; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
  */
-
+/*
+ * Modified work Copyright 2019 IT-Designers
+ */
 package de.itdesigners.common.crc32withpolynomial;
 
 /**
