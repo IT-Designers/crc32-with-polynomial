@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.itdesigners.common</groupId>
+  <artifactId>crc32-with-polynomial</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <name>CRC32 with polynomial</name>
+  <description>A library for calculating CRC32 hash with modifiable polynomial.</description>
+  <url>https://github.com/itdesigners/crc32-with-polynomial</url>
+
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, Version 2 + Classpath Exception</name>
+      <url>https://openjdk.java.net/legal/gplv2+ce.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <url>https://github.com/itdesigners/crc32-with-polynomial</url>
+  </scm>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>.</directory>
+        <includes>
+          <include>LICENSE</include>
+          <include>README.md</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
